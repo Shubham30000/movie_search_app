@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# 🎬 MovieLand
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MovieLand is a sleek and responsive movie search application built using React.js. Users can search for movies by title, and the app fetches movie data such as posters, release years, and titles from the OMDb API.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Demo
 
-### `npm start`
+> Type in any movie name (e.g., "Spiderman") to see real-time results!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🔍 Dynamic search bar to query movie titles
+- 🎞️ Fetch movie data from OMDb API using async/await
+- 📱 Responsive UI with modern CSS styling
+- 🖼️ Displays movie cards with poster, year, and title
+- ❌ Handles empty search results gracefully
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend:
+- React.js
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### API:
+- OMDb API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧰 Setup Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✅ Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js
+- npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ⚙️ Installation Steps
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
 
-## Learn More
+    ```bash
+    git clone https://github.com/your-username/movieland.git
+    cd movieland
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install the dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    npm install
+    ```
 
-### Code Splitting
+3. Create a `.env` file in the root directory and add your OMDb API key:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    REACT_APP_OMDB_API_KEY=your-omdb-api-key
+    ```
 
-### Analyzing the Bundle Size
+4. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```bash
+    npm start
+    ```
 
-### Making a Progressive Web App
+    The app will run at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🎬 API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### OMDb API
 
-### Deployment
+- **URL**: [OMDb API](http://www.omdbapi.com/)
+- **Key**: Add your own API key in `.env` file for security reasons.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📁 File Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `App.js`
+- `index.js`
+- `App.css`
+- `Moviecard.js`
+- `search.svg`
+
+---
+
+## 👨‍💻 Author
+
+- **Shubham Singh**
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🔧 License Information
+
+This project is licensed under the MIT License.
